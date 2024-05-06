@@ -7,6 +7,9 @@ well-known IP addresses at the time. I remember 8.8.8.8 and 1.1.1.1, but I'm not
 
 I also thought that a simple PowerShell cmdlet would be idiomatic and useful for similar purposes in other people's scripts.
 
+# Installation
+`Install-Module Wait-Net`
+
 # Cmdlets
 ## `Wait-Net`
 Wait until Internet connectivity is restored on at least one of the network adapters on the system. It accepts a `-Milliseconds` parameter to specify the
