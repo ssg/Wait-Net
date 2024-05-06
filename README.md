@@ -12,6 +12,8 @@ I also thought that a simple PowerShell cmdlet would be idiomatic and useful for
 Wait until Internet connectivity is restored on at least one of the network adapters on the system. It accepts a `-Milliseconds` parameter to specify the
 delay for checks which is 1000 (1 Second) by default.
 
+By default, Wait-Net shows no output. Feel free to use `-Debug` switch if you want to see what it's doing while waiting.
+
 ## `Test-NetConnectivity`
 This cmdlet just returns `$true` or `$false` if there is Internet connectivity.
 
