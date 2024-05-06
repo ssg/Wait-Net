@@ -28,11 +28,5 @@ Description = 'Provides cmdlets to diagnose Internet connectivity'
 
 # Minimum version of the PowerShell engine required by this module
 PowerShellVersion = '7.0'
-
-# Modules that must be imported into the global environment prior to importing this module
-# RequiredModules = @()
-
-# Assemblies that must be loaded prior to importing this module
-# RequiredAssemblies = @()
 }
 
