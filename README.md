@@ -2,7 +2,7 @@
 Powershell cmdlet to wait for Internet connectivity to establish again.
 
 # About
-I wrote this cmdlet while the cafe I was sitting at lost its Internet connection. I wanted to be notified when Internet's back. I usually use `ping -t *some_known_ip_address*` to do that, but I didn't remember any
+I wrote this cmdlet while [the cafe I was sitting](https://maps.app.goo.gl/CTFfxeigBRRJLW3Y6) at lost its Internet connection. I wanted to be notified when Internet's back. I usually use `ping -t *some_known_ip_address*` to do that, but I didn't remember any
 well-known IP addresses at the time. I remember 8.8.8.8 and 1.1.1.1, but I'm not sure if they responded to pings. This cmdlet is just a better way to wait until Internet connection is restored.
 
 I also thought that a simple PowerShell cmdlet would be idiomatic and useful for similar purposes in other people's scripts.
